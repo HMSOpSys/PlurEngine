@@ -1,1 +1,2 @@
-export * from './components/testComponent'
+export * from './engine/game'
+export * from './hooks/useGame'

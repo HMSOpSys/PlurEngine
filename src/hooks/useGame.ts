@@ -1,8 +1,8 @@
 import { useRef } from "react"
 import Game from "../engine"
 
-function useGame() {
-  const gameRef = useRef()
+export function useGame() {
+  const gameRef = useRef<Game>()
   if (!gameRef.current) {
     gameRef.current = new Game()
   }
