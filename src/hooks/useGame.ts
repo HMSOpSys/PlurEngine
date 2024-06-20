@@ -1,5 +1,5 @@
 import { useRef } from "react"
-import Game from "../engine"
+import Game from "@engine"
 
 export function useGame() {
   const gameRef = useRef<Game>()

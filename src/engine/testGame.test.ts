@@ -1,5 +1,5 @@
 import { waitFor } from '@testing-library/dom'
-import { Game } from './game'
+import { Game } from './testGame'
 
 describe('Game', () => {
   let game: Game

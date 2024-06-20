@@ -1,6 +1,6 @@
 import { renderHook, act, waitFor } from '@testing-library/react'
 import { useGame } from './useGame'
-import Game from '../engine'
+import Game from '@engine'
 
 describe('useGame', () => {
   it('should return a Game instance', () => {
